@@ -1,0 +1,27 @@
+{
+  "name": "runway",
+  "version": "1.0.0",
+  "description": "testing react and webpack for landing page",
+  "main": "bundle.js",
+  "dependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanoneillcode/runway.git"
+  },
+  "keywords": [
+    "ignore"
+  ],
+  "author": "son",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/seanoneillcode/runway/issues"
+  },
+  "homepage": "https://github.com/seanoneillcode/runway#readme"
+}
