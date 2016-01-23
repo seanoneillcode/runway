@@ -1,2 +1,5 @@
 require("./style.css");
-document.write("It works.");
+
+const arr = () => 42;
+
+document.write("It works. " + arr());

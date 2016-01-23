@@ -44,9 +44,15 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(1);
-	document.write("It works.");
+	"use strict";
 
+	__webpack_require__(1);
+
+	var arr = function arr() {
+	  return 42;
+	};
+
+	document.write("It works. " + arr());
 
 /***/ },
 /* 1 */
@@ -83,7 +89,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n    background: yellow;\n}\n", ""]);
+	exports.push([module.id, "body {\n    background: white;\n}\n", ""]);
 
 	// exports
 
