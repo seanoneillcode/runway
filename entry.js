@@ -1,5 +1,18 @@
-require("./style.css");
 
-const arr = () => 42;
+var React = require("react");
+var ReactDOM = require("react-dom");
 
-document.write("It works. " + arr());
+var CommentBox = React.createClass({
+  render: function() {
+    return (
+      <div className="commentBox">
+        Hello, world! I am a CommentBox.
+      </div>
+    );
+  }
+});
+
+ReactDOM.render(
+  <CommentBox />,
+  document.getElementById('content')
+);
